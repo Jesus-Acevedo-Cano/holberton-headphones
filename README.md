@@ -15,24 +15,24 @@ For this first task: create the header/hero piece
 - simple/“as generic as you can” CSS selectors
 - avoid as more as you can super specific CSS selector
 - simple HTML structure - div containers are your friend!
---> [HTML file](./0-index.html) - [CSS file](./0-styles.css)
+- ##### Files --> [HTML file](./0-index.html) - [CSS file](./0-styles.css)
 
 #### 2. "What we do..." section
 For this second task: create the “What we do…” section
---> [HTML file](./1-index.html) - [CSS file](./1-styles.css)
+- ##### Files --> [HTML file](./1-index.html) - [CSS file](./1-styles.css)
 
 #### 3. "Our results" section
 For this third task: create the “Our results” section
---> [HTML file](./2-index.html) - [CSS file](./2-styles.css)
+- ##### Files --> [HTML file](./2-index.html) - [CSS file](./2-styles.css)
 
 #### 4. Contact us
 A good landing page has always a contact form.
 You are free to add any animations and/or constraints on fields.
---> [HTML file](./3-index.html) - [CSS file](./3-styles.css)
+- ##### Files --> [HTML file](./3-index.html) - [CSS file](./3-styles.css)
 
 #### 5. Footer
 Last piece of the page… the Footer!
---> [HTML file](./4-index.html) - [CSS file](./4-styles.css)
+- ##### Files --> [HTML file](./4-index.html) - [CSS file](./4-styles.css)
 
 ---
 
