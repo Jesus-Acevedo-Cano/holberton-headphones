@@ -1,5 +1,7 @@
 # 0x09. Implement a design from scratch
 
+<h1 align=center>Holberton Headphones
+
 ## Description
 
 In this project, you will implement from scratch, without any library, a web page. You will use all HTML/CSS/Accessibility/Responsive design knowledges that you learned previously.
