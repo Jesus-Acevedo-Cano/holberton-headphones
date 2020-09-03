@@ -174,7 +174,7 @@ ul.row {
 }
 
 .card-box {
-  height: 180px;
+  height: 25rem;
 }
 
 @media (max-width: 480px) {
@@ -235,12 +235,12 @@ ul.row {
         background-size: cover;
         color: var(--color-white);
         text-align: center;
+        padding-bottom: 6rem;
       }
       .container {
         max-width: 1000px;
         margin: 0 auto;
         text-align: -webkit-center;
-        padding-bottom: 6rem;
       }
       .header-container {
         display: flex;
@@ -389,7 +389,7 @@ ul.row {
       --header-padding: 2rem 0 0;
     }
     .header {
-      padding: 2rem 2.5rem 0;
+      padding: 2rem 2.5rem 6rem;
     }
     .header-container {
       flex-wrap: wrap;
@@ -635,7 +635,11 @@ ul.row .img-icon img {
   .card .down {
     bottom: 29.5rem;
   }
+  .img-icon {
+    width: 30rem;
+  }
 }
+
 
 @media (max-width:480px) {
   .card-box {
