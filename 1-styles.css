@@ -38,7 +38,7 @@
     --line-height-big: 1.8;
   
     /** SECTION **/
-    --section-padding: 5rem 0;
+    --section-padding: 12rem 0 4rem;
     --section-header-padding: 0 0 3rem;
     --section-header-align: center;
     --section-title-font-size: var(--font-size-xx-large);

@@ -18,6 +18,7 @@
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --color-red: #cd3e65;
+    --valid-color : #0c920c;
   
     --text-color: var(--color-black);
   
@@ -645,5 +646,72 @@ ul.row .img-icon img {
   .card-box {
     width: 29rem;
     margin-left: -5rem;
+  }
+}
+
+/***** Contact us section *****/
+
+.section-contact {
+  display: flex;
+  justify-content: center;
+}
+
+form.form-contact {
+  width: 100%;
+  font-weight: 600;
+}
+
+form.form-contact label {
+  font-weight: var(--font-weight-semibold);
+}
+
+form.form-contact input,
+form.form-contact textarea {
+  width: 100%;
+  padding: 8px 0px 5px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid gray;
+  resize: none;
+  height: 4rem;
+}
+
+.form-contact .form-group .btn {
+  display: flex;
+  margin: 0 auto 5rem;
+  box-shadow: none;
+  position: relative;
+  top: 5rem;
+  padding: 1.6rem 3.5rem;
+}
+.left {
+  text-align: left;
+}
+/* Form error handling
+============================= */
+
+input:required:valid~.form-help {
+  max-height: 0;
+}
+
+input:required:valid:not(:placeholder-shown),
+textarea:valid:not(:placeholder-shown) {
+  border-bottom: 0.2rem solid var(--valid-color);
+}
+
+@media (max-width:767px) {
+
+  form.form-contact label {
+    font-size: var(--font-size-x-large);
+  }
+
+  .form-contact .form-group .btn {
+    font-size: 2.3rem;
+    padding: 2rem 4.5rem;
+    border-radius: 4rem;
+  }
+
+  .section-contact {
+    position: relative;
   }
 }
