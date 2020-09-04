@@ -595,10 +595,10 @@ ul.row {
   padding: 12rem 0 0rem;
 }
 .section-inner {
-        max-width: 637px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+  max-width: 637px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 ul.row .img-icon img {
   display: flex;
